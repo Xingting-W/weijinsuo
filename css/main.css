@@ -1,0 +1,125 @@
+/* Bootstrap扩展样式 */
+.btn-register {
+  color: #ffffff;
+  background-color: #E92322;
+  border-color: #DB3B43;
+}
+
+.btn-register:hover,
+.btn-register:focus,
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+  color: #ffffff;
+  background-color: #E92322;
+  border-color: #DB3B43;
+}
+
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+  background-image: none;
+}
+
+.btn-register.disabled,
+.btn-register[disabled],
+fieldset[disabled] .btn-register,
+.btn-register.disabled:hover,
+.btn-register[disabled]:hover,
+fieldset[disabled] .btn-register:hover,
+.btn-register.disabled:focus,
+.btn-register[disabled]:focus,
+fieldset[disabled] .btn-register:focus,
+.btn-register.disabled:active,
+.btn-register[disabled]:active,
+fieldset[disabled] .btn-register:active,
+.btn-register.disabled.active,
+.btn-register[disabled].active,
+fieldset[disabled] .btn-register.active {
+  background-color: #E92322;
+  border-color: #DB3B43;
+}
+
+.btn-register .badge {
+  color: #E92322;
+  background-color: #ffffff;
+}
+
+/* 公共样式 */
+body {
+  font-family: "Helvetica Neue", "Microsoft YaHei UI";
+}
+
+@font-face {
+  font-family: MiFie;
+  src: url("../font/MiFie-Web-Font.eot") format('embedded-opentype'), url("../font/MiFie-Web-Font.svg") format('svg'), url("../font/MiFie-Web-Font.ttf") format('truetype'), url("../font/MiFie-Web-Font.woff") format('woff');
+}
+
+/* 所有用自定义字体的都加上icon-开头的类 */
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: MiFie;
+  font-style: normal;
+}
+
+.icon-mobilephone::before {
+  content: "\e908";
+  font-size: 13px;
+}
+
+.icon-telephone::before {
+  content: "\e909";
+  font-size: 15px;
+}
+
+/* 头部 */
+#main-header {
+  height: 200px;
+}
+
+#main-header > .topbar {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+#main-header .row {
+  height: 40px;
+  font-size: 12px;
+}
+
+#main-header .row > div + div {
+  border-left: 1px solid #c0c0c0;
+  color: #888888;
+}
+
+#main-header a {
+  color: #888888;
+}
+
+#main-header a:hover {
+  text-decoration: none;
+}
+
+#main-header a.mobile-link {
+  display: block;
+}
+
+#main-header a.mobile-link > img {
+  display: none;
+}
+
+#main-header a.mobile-link:hover > img {
+  display: inline-block;
+}
+
+#main-header .btn {
+  font-size: 12px;
+}
+
+#main-header .btn-link {
+  color: #888888;
+}
+
+footer {
+}
